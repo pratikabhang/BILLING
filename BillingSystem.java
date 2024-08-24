@@ -112,7 +112,7 @@ class ShoppingCart {
     }
 }
 
-// Main class representing the Supermarket Billing System
+// Main class representing the Billing System
 public class BillingSystem {
     private static Scanner scanner = new Scanner(System.in);
     private static ShoppingCart cart = new ShoppingCart();
@@ -126,7 +126,7 @@ public class BillingSystem {
     private static void showMenu() {
         int choice;
         do {
-            System.out.println("------ Supermarket Billing System ------");
+            System.out.println("----- Billing System ------");
             System.out.println("1. Add item to cart");
             System.out.println("2. Remove item from cart");
             System.out.println("3. View cart");
@@ -158,7 +158,7 @@ public class BillingSystem {
                     downloadInvoice();
                     break;
                 case 7:
-                    System.out.println("Thank you for using the Supermarket Billing System!");
+                    System.out.println("Thank you for using the Billing System!");
                     break;
                 default:
                     System.out.println("Invalid choice. Please try again.");
